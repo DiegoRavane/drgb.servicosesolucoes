@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.R.G.B. Serviços e Soluções</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <header>
+        <h1>D.R.G.B. Serviços e Soluções</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre a empresa</h2>
+            <p>Ofereço soluções em instalação de CFTV e alarmes, instalação e manutenção de ar condicionado split, automação de equipamentos residenciais, consultoria em tecnologia e projetos de segurança residencial e empresarial, além de consultoria em compras pela internet.</p>
+        </section>
+
+        <section id="sobre-mim">
+            <h2>Sobre mim</h2>
+            <p>Sou formado em Gestão de Segurança Privada, fui vigilante patrimonial por mais de 11 anos, operador de CFTV e sistemas de alarme, com experiência em gestão de escolta armada. Também sou eletricista predial, instalador de ar condicionados, instalador de CFTV e sistemas de alarme e trabalho com automação residencial. Atualmente estou estudando Gestão de Tecnologia da Informação.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Instalação de sistemas de CFTV</li>
+                <li>Instalação de alarmes</li>
+                <li>Instalação e manutenção de ar condicionado Split</li>
+                <li>Automação residencial</li>
+                <li>Instalações elétricas</li>
+                <li>Consultorias em compras seguras pela Internet: "onde encontrar os menores preços, como ganhar cupons de desconto e cashback"</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <p>Em breve: fotos e vídeos de nossos projetos realizados.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Fale conosco pelo WhatsApp ou siga-nos no Instagram!</p>
+            <a href="https://wa.me/5562982242130" target="_blank">WhatsApp</a> |
+            <a href="https://instagram.com/diegoguedesb" target="_blank">Instagram</a>
+        </section>
+    </div>
+
+    <footer style="text-align: center; padding: 20px;">
+        <p>&copy; 2025 D.R.G.B – Serviços e Soluções.</p>
+    
+    <!-- Termos de Uso -->
+    <p>
+        <a href="#" onclick="abrirTermos()" style="text-decoration: underline; color: blue; cursor: pointer;">
+        Termos de Uso
+        </a>
+    </p>
+    </footer>
+    
+    <!-- Modal dos Termos de Uso -->
+    <div id="modalTermos" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.5); z-index:1000;">
+    <div style="background:white; margin:10% auto; padding:20px; width:80%; max-width:600px; border-radius:8px; position:relative;">
+    
+        <!-- Botão X para fechar -->
+        <span onclick="fecharTermos()" style="position:absolute; top:10px; right:15px; font-size:24px; font-weight:bold; color:#333; cursor:pointer;">
+        &times;
+        </span>
+    
+        <h2>Termos de Uso</h2>
+        <p style="text-align: justify;">
+        O site www.drgbservicos.com.br disponibiliza informações e serviços de instalação, manutenção e consultoria.<br><br>
+        Alguns serviços ofertados poderão ser executados por parceiros comerciais, devidamente cadastrados e qualificados, que atuarão sob sua responsabilidade técnica e operacional.<br><br>
+        A D.R.G.B Serviços atua como facilitadora da conexão entre o cliente e o prestador do serviço, e não assume responsabilidade direta pela execução dos serviços realizados por terceiros.<br><br>
+        Em caso de dúvidas sobre o responsável pela prestação do serviço contratado, o cliente poderá entrar em contato conosco através do e-mail diego_rguedes@hotmail.com ou telefone (62)98224-2130.
+        </p>
+    
+    </div>
+    </div>
+    
+    <!-- JavaScript para abrir/fechar o modal -->
+    <script>
+    function abrirTermos() {
+    document.getElementById('modalTermos').style.display = 'block';
+    }
+    function fecharTermos() {
+    document.getElementById('modalTermos').style.display = 'none';
+    }
+    </script>
